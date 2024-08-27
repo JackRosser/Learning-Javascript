@@ -24,21 +24,35 @@ body a:hover {
   color: blue;
 }
 
-nav ul {
-  display: flex;
+ul {
+  padding: 0;
 }
 
-li {
+/* Strutturiamo l'header */
+
+header {
+  background-color: rgba(221, 221, 221, 0.95);
+  padding-block: 10px;
+  width: 100%;
+  position: fixed;
+}
+
+header li {
   display: inline-block;
+  margin-inline: 20px;
 }
 
-main ul {
-  text-transform: capitalize;
+header ul li:first-child {
+  margin-left: 40px;
 }
 
-nav li {
-  background-color: white;
-  margin-inline: 10px;
-  padding: 10px;
-  border-radius: 10px;
+.header__main {
+  position: relative;
+}
+
+.header__submenu {
+  border-top: 1px solid gray;
+  position: absolute;
+  width: 100%;
+  top: 38px;
 }
