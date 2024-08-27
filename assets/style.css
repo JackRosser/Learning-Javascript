@@ -6,3 +6,39 @@
 body::-webkit-scrollbar {
   display: none;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(245, 245, 245);
+}
+
+/* Ho a disposizione come pesi 400-500-700 */
+
+body a {
+  text-decoration: none;
+  font-weight: 500;
+  color: rgb(218, 0, 0);
+}
+
+body a:hover {
+  color: blue;
+}
+
+nav ul {
+  display: flex;
+}
+
+li {
+  display: inline-block;
+}
+
+main ul {
+  text-transform: capitalize;
+}
+
+nav li {
+  background-color: white;
+  margin-inline: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
