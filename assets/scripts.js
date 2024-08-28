@@ -2,9 +2,9 @@
 
 let javaScriptMenu = document.getElementById("javascript");
 
-let aJs = document.querySelector("header ul li:first-child");
-let aCss = document.querySelector("header ul li:last-child");
+// generiamo un menu a comparsa che inizi a esistere quando si clicca su "javascript"
+// lo generiamo con js e gli diamo come classe "header__submenu"
 
-aJs.onclick = function () {
-  javaScriptMenu.style.right = 0;
-};
+console.log(javaScriptMenu);
+
+let addSubmenu = function () {};

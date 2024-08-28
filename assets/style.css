@@ -24,6 +24,16 @@ body a:hover {
   color: blue;
 }
 
+header ul li {
+  font-weight: 500;
+  color: rgb(179, 2, 2);
+}
+
+header ul li:hover {
+  color: blue;
+  cursor: pointer; /* questa funzione cambia il puntatore del mouse */
+}
+
 ul {
   padding: 0;
 }
@@ -65,7 +75,6 @@ header ul li:first-child {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  right: -100%;
 }
 
 main {
