@@ -17,7 +17,7 @@ body {
 body a {
   text-decoration: none;
   font-weight: 500;
-  color: rgb(218, 0, 0);
+  color: rgb(179, 2, 2);
 }
 
 body a:hover {
@@ -31,10 +31,7 @@ ul {
 /* Strutturiamo l'header */
 
 header {
-  background-color: rgba(221, 221, 221, 0.95);
-  padding-block: 10px;
-  width: 100%;
-  position: fixed;
+  text-transform: capitalize;
 }
 
 header li {
@@ -46,13 +43,31 @@ header ul li:first-child {
   margin-left: 40px;
 }
 
+.header__submenu li:last-child {
+  margin-right: 40px;
+}
+
 .header__main {
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-block: 10px;
+  background-color: rgb(200, 200, 200);
 }
 
 .header__submenu {
   border-top: 1px solid gray;
-  position: absolute;
+  position: fixed;
+  top: 39px;
   width: 100%;
-  top: 38px;
+  padding-block: 10px;
+  background-color: rgb(200, 200, 200);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  right: -100%;
+}
+
+main {
+  padding: 100px 40px;
 }
